@@ -230,9 +230,7 @@
       <img src="./img/icongo.svg" alt="открыть далее">
     </button>
     </div> 
-  
-    
-  
+   
     <div class="brand-items brand-items--hidden">
       <img class="brand-items__image" src="./img/logoapple.png" alt="логотип компании Apple" 
       width="44px"
@@ -241,6 +239,20 @@
       <img src="./img/icongo.svg" alt="открыть далее">
     </button>
     </div>   
+
+<!--
+поменять классы для hidden brand items - текущие заменить на --hidden--tablet
+добавить второй тип hidden классов --hidden--desctop в макете до нажатия кнопки скрыто РАЗНОЕ количество 
+
+соответственно поменять js: 
+
+первая переменная-массив уже переименована в hiddenTablet, нужно будет поменять query для нее на поиск классов из разметки hidden--tablet (которые надо к этому моменту заменить), 
+eventlistener уже перенесен в расширение экрана для таблет (соответственно пока кнопки фактически отключены для десктопа)  
+
+нужно добавить еще одну переменную-масссив с поиском по новым классам hidden desctop, и написать eventlistener для расширения desctop такой же
+
+    -->
+
 
 </div>
 
