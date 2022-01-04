@@ -82,7 +82,7 @@ body {
   text-align: left;
 }
 
-.swiper-slide__items {
+.brands__swiper .swiper-slide__items {
   border: 1px solid #eaeaea;
   border-radius: 6px;
   height: 72px;
@@ -146,8 +146,8 @@ body {
     opacity: 1;
   }
 
-  .button-open,
-  .button-close {
+  .brands__button-open,
+  .brands__button-close {
     display: none;
   }
 }
@@ -167,7 +167,7 @@ body {
     width: 100%;
   }
 
-  .swiper-wrapper {
+  .brands__swiper .swiper-wrapper {
     margin: 0 auto;
     position: static;
     padding: 24px;
@@ -183,18 +183,18 @@ body {
     row-gap: 16px;
     column-gap: 24px;
   }
-  .swiper-slide {
+  .brands__swiper  .swiper-slide {
     position: static;
     width: 224px;
     height: 72px;
   }
-  .swiper-slide__items {
+  .brands__swiper .swiper-slide__items {
     width: 224px;
     height: 72px;
   }
 
-  .button-open,
-  .button-close {
+  .brands__button-open,
+  .brands__button-close {
     display: block;
     text-align: left;
     min-width: 768px;
@@ -203,19 +203,18 @@ body {
     margin: 0 auto;
   }
 
-  .button-open::before {
+  .brands__button-open::before {
     content: url("./img/readmoreicon.svg");
     margin-right: 16px;
   }
 
-  .button-close::before {
+  .brands__button-close::before {
     content: url("./img/readlessicon.svg");
     margin-right: 16px;
   }
 
-  .swiper-slide--hidden--tablet,
-  .button-open--hidden,
-  .button-close--hidden {
+  .brands__swiper .swiper-slide--hidden--tablet,
+  .brands .button--hidden {
     display: none;
   }
 
@@ -236,7 +235,7 @@ body {
     width: 100%;
   }
 
-  .swiper-wrapper {
+  .brands__swiper .swiper-wrapper {
     margin: 0 auto;
     position: static;
     padding: 24px 32px;
@@ -252,18 +251,18 @@ body {
     row-gap: 16px;
     column-gap: 32px;
   }
-  .swiper-slide {
+  .brands__swiper  .swiper-slide {
     position: static;
     width: 240px;
     height: 72px;
   }
-  .swiper-slide__items {
+  .brands__swiper .swiper-slide__items {
     width: 240px;
     height: 72px;
   }
 
-  .button-open,
-  .button-close {
+  .brands__button-open,
+  .brands__button-close {
     display: block;
     text-align: left;
 
@@ -273,19 +272,18 @@ body {
     margin: 0 auto;
   }
 
-  .button-open::before {
+  .brands__button-open::before {
     content: url("./img/readmoreicon.svg");
     margin-right: 16px;
   }
 
-  .button-close::before {
+  .brands__button-close::before {
     content: url("./img/readlessicon.svg");
     margin-right: 16px;
   }
 
-  .swiper-slide--hidden--desktop,
-  .button-open--hidden,
-  .button-close--hidden {
+  .brands__swiper  .swiper-slide--hidden--desktop,
+  .brands .button--hidden {
     display: none;
   }
 
