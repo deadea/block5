@@ -1,6 +1,6 @@
 // переменные для показа скрытия по кнопке 
-let buttonOpen = document.querySelector('.brands__button-open');
-let buttonClose = document.querySelector('.brands__button-close');
+let buttonOpen = document.querySelector('.button-open');
+let buttonClose = document.querySelector('.button-close');
 
 let hiddenOnTablet = document.querySelectorAll('.brands__swiper .swiper-slide--hidden--tablet');
 let hiddenOnDesktop = document.querySelectorAll('.brands__swiper .swiper-slide--hidden--desktop');

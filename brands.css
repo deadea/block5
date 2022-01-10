@@ -146,8 +146,8 @@ body {
     opacity: 1;
   }
 
-  .brands__button-open,
-  .brands__button-close {
+  .button-open,
+  .button-close {
     display: none;
   }
 }
@@ -193,8 +193,8 @@ body {
     height: 72px;
   }
 
-  .brands__button-open,
-  .brands__button-close {
+  .button-open,
+  .button-close {
     display: block;
     text-align: left;
     min-width: 768px;
@@ -203,12 +203,12 @@ body {
     margin: 0 auto;
   }
 
-  .brands__button-open::before {
+  .button-open::before {
     content: url("./img/readmoreicon.svg");
     margin-right: 16px;
   }
 
-  .brands__button-close::before {
+  .button-close::before {
     content: url("./img/readlessicon.svg");
     margin-right: 16px;
   }
@@ -261,8 +261,8 @@ body {
     height: 72px;
   }
 
-  .brands__button-open,
-  .brands__button-close {
+  .button-open,
+  .button-close {
     display: block;
     text-align: left;
 
@@ -272,12 +272,12 @@ body {
     margin: 0 auto;
   }
 
-  .brands__button-open::before {
+  .button-open::before {
     content: url("./img/readmoreicon.svg");
     margin-right: 16px;
   }
 
-  .brands__button-close::before {
+  .button-close::before {
     content: url("./img/readlessicon.svg");
     margin-right: 16px;
   }
